@@ -1,0 +1,33 @@
+.tituloContacto {
+  font-size: 4rem;
+  text-align: center;
+  margin: 15px;
+  color: white;
+}
+.p-contacto {
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  margin: 15px 0px;
+}
+.gridContacto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.map {
+  display: grid;
+  justify-self: center;
+  margin: 40px 0px 90px 0px;
+}
+fieldset {
+  border: dotted 2px;
+  color: #cf455c;
+  padding: 15px;
+}
+.formulario {
+  display: grid;
+  margin: 40px 0px 90px 0px;
+  font-size: 1.5rem;
+  padding: 0px 25px;
+}

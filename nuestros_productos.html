@@ -1,0 +1,239 @@
+<!DOCTYPE html><!--Importante porque determina qué versión de (X)HTML utiliza el documento, y esa es una información clave que necesitan los navegadores u otras herramientas que procesen el documento-->
+<html lang="es"><!--indica el idioma de escritura, ej: si se abre en USA se debera traducir, si se abre en ARS no-->
+<head>
+	<title>Productos - Sana Costumbre</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Productos sin TACC caseros, de excelente calidad, hechos por y para celiacos">
+	<meta name="keywords" content="SinTacc, GlutenFree, productos, caceros, NoGluten, homemade, food, pasteleria sin TACC, panaderia sin TACC">
+	<link rel="shortcut icon" href="imagenes\sc top footer.png" type="image/x-icon">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/SCSS.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+	
+</head>
+<body>
+
+	<!--HEADER-->
+
+	<header>
+		<nav class="header navbar navbar-expand-lg navbar-light">
+			<div class="container">
+				<a class="navbar-brand header__a" href="index.html">
+					Sana Costumbre sin TACC 
+				</a>
+			</div>
+			<div class="container-fluid header__menu">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav">
+						<a href="index.html" class="btn btn-primary btn btn-dark header__navbar" aria-current="page">Home</a>
+						<a href="sobre_nosotros.html" class="btn btn-primary btn-dark header__navbar">Sobre nosotros</a>
+						<a href="galeria.html" class="btn btn-primary btn-dark header__navbar">Galería de imágenes</a>
+						<a href="nuestros_productos.html" class="btn btn-primary btn-dark header__navbar  active">Nuestros productos</a>
+						<a href="contacto.html" class="btn btn-primary btn-dark header__navbar">Contacto</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<section>
+		<main>
+			<h1 id="panaderia" class="tituloPana">PANADERIA</h1>
+			<div class="row row-cols-1 row-cols-md-3 g-4">
+				<!--PAN de molde-->
+				<div class="col">
+					<div class="card h-100">
+						<img src="fotos/pan.jpeg" class="card-img-top" alt="..." style="height: 750px; width: auto;">
+						<div class="card-body">
+							<h5 class="card-title"><b>Pan de Molde</b></h5>
+							<p class="card-text">Pan hecho con leche, huevos y premezcla.<br>Peso aproximado de 800gs.</p>
+						</div>
+						<div class="card-footer">
+							<small class="text-muted">Valor: AR$200</small>
+						</div>
+					</div>
+				</div>
+				<!--PAN DE QUESO-->
+				<div class="col">
+					<div class="card h-100">
+						<img src="fotos/pan_queso.jpg" class="card-img-top" alt="..." style="height: 750px; width: auto;">
+						<div class="card-body">
+							<h5 class="card-title"><b>Pan de Queso</b></h5>
+							<p class="card-text">Pan hecho con queso ahumado, leche y huevos<br>Peso aproximado de 900gs</p>
+						</div>
+						<div class="card-footer">
+							<small class="text-muted">Valor: AR$400</small>
+						</div>
+					</div>
+				</div>
+				<!--PAN DE OREGANO-->
+				<div class="col">
+					<div class="card h-100">
+						<img src="fotos/pan_oregano.jpg" class="card-img-top img-fluid" alt="..." style="height: 750px; width: auto;">
+						<div class="card-body">
+							<h5 class="card-title"><b>Pan de Hierbas</b></h5>
+							<p class="card-text">Pan hecho con:
+								<ol>
+									<li>Orégano</li><br>
+									<li>Albahaca</li><br>
+									<li>Cilantro</li><br>
+									<li>Romero</li><br>
+									<li>Y además opciones como</li><br>
+										<ol>
+											<li>Ajo</li><br>
+											<li>Cebolla</li>
+										</ol>
+								</ol>
+							Todas estas opciones estan hechas con leche y huevo</p>
+						</div>
+						<div class="card-footer">
+							<small class="text-muted">Valor: AR$300</small>
+						</div>
+					</div>
+				</div>
+			</div>
+			<h1 id="reporteria" class="tituloRepo">REPOSTERIA</h1>
+			<div class="row row-cols-1 row-cols-md-3 g-4 div2">
+				<div class="col">
+					<div class="card h-100">
+						<!--BUDINES-->
+						<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+							<div class="card-img-top carousel-inner">
+								<div class="carousel-item active">
+									<img src="fotos/2.1.jpg" class="d-block w-100" alt="...">
+								</div>
+								<div class="carousel-item">
+									<img src="fotos/1.3.jpg" class="d-block w-100" alt="...">
+								</div>
+								<div class="carousel-item">
+									<img src="fotos/1.4.jpg" class="d-block w-100" alt="...">
+								</div>
+							</div>
+							<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Previous</span>
+							</a>
+							<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Next</span>
+							</a>
+						</div>
+						<div class="card-body">
+							<h5 class="card-title"><b>Budines</b></h5>
+							<p class="card-text">
+								Los budines pueden tener 3 opciones: 
+								<ul>
+									<li>Naranja</li><br>
+									<li>Limón</li><br>
+									<li>Vainilla</li><br>
+								</ul>
+								Todas las opciones contienen derivados de leche.
+							</p>
+						</div>
+						<div class="card-footer">
+						<small class="text-muted">Valor: AR$250</small>
+						</div>
+					</div>
+				</div>
+				<!--MASITAS-->
+				<div class="col">
+					<div class="card h-100">
+						<img src="fotos/6.jpeg" class="card-img-top" alt="..." style="height: 750px; width: auto;">
+						<div class="card-body">
+							<h5 class="card-title"><b>Bandeja de Masitas</b></h5>
+							<p class="card-text">La masitas estan hechas con derivados de la leche y huevos.<br>El peso de la bandeja es de 400gs.
+							</p>
+						</div>
+						<div class="card-footer">
+							<small class="text-muted">Valor: AR$500</small>
+						</div>
+					</div>
+				</div>
+				<!--TARTAS-->
+				<div class="col">
+					<div class="card h-100">
+						<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+							<div class="card-img-top carousel-inner">
+								<div class="carousel-item active">
+									<img src="fotos/3.1.png" class="d-block w-100" alt="...">
+								</div>
+								<div class="carousel-item">
+									<img src="fotos/lemon_pie.jpg" class="d-block w-100" alt="...">
+								</div>
+								<div class="carousel-item">
+									<img src="fotos/brownie-cake.jpg" class="d-block w-100" alt="...">
+								</div>
+							</div>
+							<a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-bs-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Previous</span>
+							</a>
+							<a class="carousel-control-next" href="#carouselExampleFade" role="button" data-bs-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Next</span>
+							</a>
+						</div>
+						<div class="card-body">
+						<h5 class="card-title"><b>Tartas</b></h5>
+						<p class="card-text">Las opciones de tartas disponibles son:
+							<ol>
+								<li>Tarta de frutas de estación</li><br>
+								<li>Lemmon Pie</li><br>
+								<li>Brownie Cake</li><br>
+								<li>Cheese Cake</li><br>
+								<li>Consulta por otras opciones</li><br>
+							</ol>
+							Todas las tartas tienen un diámetro de 26cm. 
+						</p>
+						</div>
+						<div class="card-footer">
+							<small class="text-muted">Valor: AR$700-1000</small>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</section>
+	<footer class="footer container-fluid">
+		<div class="row">
+			<div class="footer__logo col-3">
+				<a href="index.html" class="logo">
+					<img src="imagenes\sc top footer.png" width="150" height="150" title="ir a Inicio" class="img-fluid">
+				</a>
+			</div>
+			<div class="footer__info col-7">
+				<h2><b>Sana Costumbre - Sin TACC</b></h2>
+				<h4>+54 9 261 4815020</h4>
+				<h4>+54 9 261 6202630</h4>
+				<h4>Perito Moreno 1939 - Godoy Cruz - Mendoza</h4>
+				<h4><a href="mailto:info@sanacostumbre.com.ar" title="Enviar mail">info@sanacostumbre.com.ar <span class="badge rounded-pill bg-light text-dark">New</span></a></h4>
+			</div>
+			<div class="footer__redesSociales col-2">
+				<a href="https://www.facebook.com/sanacostumbresintacc" target="_blank">
+					<img src="imagenes\facebook png.png" alt="Facebook.com/sanacostumbre" width="35" height="35">
+				</a>
+				<a href="https://www.instagram.com/sanacostumbresintacc/" target="_blank">
+					<img src="imagenes\instagram png.png" alt="instagram.com/sanacostumbre" width="35" height="35">
+				</a>
+				<a href="https://wa.me/qr/5PRHG5IRPPOAN1" target="_blank">
+					<img src="imagenes\whatsapp png.png" alt="WhatsApp" width="35" height="35">
+				</a>
+			</div>
+		<div class="derechos col-12">
+			<p>
+				Todos los derechos reservados por TATUATI  | Política de privacidad | Al utilizar este sitio web, acepta el uso de cookies.
+			</p>
+		</div>
+		</div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+</body>
+</html>	

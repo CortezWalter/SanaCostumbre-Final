@@ -1,0 +1,395 @@
+/* Estilo Home*/
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Comfortaa", cursive;
+  background-color: #f2daac;
+  margin: 0px;
+  font-size: 1.2rem;
+}
+
+/*Header*/
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: linear-gradient(
+    90deg,
+    rgba(50, 103, 115, 1) 13%,
+    rgb(19, 20, 20) 22%
+  );
+  width: 100vw;
+  height: 100px;
+  display: grid;
+  grid-template-columns: 3;
+  align-items: center;
+}
+nav {
+  align-self: center;
+}
+nav ul li a {
+  color: #f2daac;
+  text-decoration: none;
+}
+nav ul li ul li a {
+  color: #f2daac;
+  text-decoration: none;
+}
+.menu {
+  display: flex;
+  font-family: "Satisfy", cursive;
+  font-size: 1.8rem;
+  list-style-type: none;
+  text-align: center;
+  justify-content: space-around;
+  text-shadow: 2px 2px 5px #f2daac;
+}
+.dropdown-menu {
+  font-size: 1.8rem;
+  background-color: black;
+  text-align: center;
+}
+li {
+  display: inline-block;
+  position: relative;
+}
+ul ul {
+  display: none;
+  position: absolute;
+}
+ul ul li {
+  display: block;
+}
+ul li:hover ul {
+  display: block;
+}
+.titulos {
+  display: grid;
+  grid-template-rows: 2;
+  align-content: center;
+  text-align: center;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  color: #f2daac;
+  text-shadow: 2px 2px 5px black;
+  font-size: 1.35rem;
+}
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*MAIN*/
+
+.contMain {
+  padding: 0px;
+}
+.primeraMain {
+  width: 100vw;
+  height: 750px;
+  background-image: url("../fotos/8.jpeg");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 10px;
+}
+.gridMain {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+.galeria {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+}
+.telefonos {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-row-gap: 10px;
+  color: white;
+  align-items: end;
+  justify-items: center;
+  justify-self: left;
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 35px;
+}
+.logoMain {
+  display: grid;
+  justify-self: center;
+  align-self: center;
+  margin-left: 50px;
+  width: 300px;
+  height: 300px;
+}
+.galeria {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-row-gap: 10px;
+  color: white;
+  align-items: end;
+  justify-items: center;
+  justify-self: right;
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 35px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+.SobreNos {
+  margin: 25px;
+  text-align: right;
+  justify-self: center;
+  align-self: center;
+  font-size: 1.7rem;
+}
+.imgNos {
+  background-image: url("../fotos/bownie.jpeg");
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 450px;
+}
+.imgProd {
+  background-image: url("../fotos/cuadlimon.jpeg");
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 450px;
+}
+.SobreProd {
+  margin: 25px;
+  text-align: left;
+  align-self: center;
+  justify-self: center;
+  font-size: 1.7rem;
+}
+
+/*Footer*/
+
+.footer {
+  background: linear-gradient(
+    90deg,
+    rgba(73, 140, 134, 1) 6%,
+    rgba(50, 103, 115, 1) 22%
+  );
+  color: #f2daac;
+  display: grid;
+  grid-template-rows: 3fr;
+  grid-template-columns: auto;
+  width: 100vw;
+  margin: 0px;
+  padding: 0px;
+}
+footer div div h4 a {
+  color: #f2daac;
+  text-decoration: none;
+}
+.logo {
+  display: inline-block;
+  text-align: center;
+}
+.info {
+  justify-content: center;
+  align-self: center;
+  text-shadow: 2px 2px 5px black;
+}
+.redesSociales {
+  display: flex;
+  align-self: center;
+  justify-content: space-evenly;
+  margin: 0px;
+  padding: 0px;
+}
+.derechos {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+  color: white;
+  grid-area: derechos;
+  height: auto;
+}
+
+/* Estilo Nuestros productos */
+
+.carousel {
+  margin: 15px;
+  z-index: 0;
+}
+h3 {
+  display: flex;
+  font-size: 3rem;
+  justify-content: center;
+  color: #e0693e;
+  margin: 15px;
+}
+.linea {
+  border: solid 3px;
+  color: #e0693e;
+  max-width: 200px;
+  margin: 5px auto 0 auto;
+}
+.slogan {
+  font-size: 2rem;
+  text-align: center;
+  margin: 15px;
+}
+.sobrenos2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #e0693e;
+  font-weight: bold;
+  margin: 15px;
+  font-size: 1.5rem;
+}
+
+/* Estilo Galeria */
+
+/* Estilo Productos*/
+
+.tituloPana {
+  display: flex;
+  font-size: 4rem;
+  justify-content: center;
+  color: #d98452;
+  margin: 25px;
+}
+.tituloRepo {
+  display: flex;
+  font-size: 4rem;
+  justify-content: center;
+  color: #d98452;
+  margin: 25px;
+}
+.card-img-top {
+  margin: 15px;
+}
+.div2 {
+  margin-bottom: 25px;
+}
+
+/* Estilos Contactos*/
+
+.tituloContacto {
+  font-size: 4rem;
+  text-align: center;
+  margin: 15px;
+  color: #d98452;
+}
+.gridContacto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.map {
+  display: grid;
+  justify-self: center;
+  margin: 40px 0px 90px 0px;
+}
+fieldset {
+  border: dotted 2px;
+  color: #d98452;
+  padding: 15px;
+}
+.formulario {
+  display: grid;
+  margin: 40px 0px 90px 0px;
+  font-size: 1.5rem;
+  padding: 0px 25px;
+}
+
+@media only screen and (max-device-width: 480px) {
+  body {
+    background-color: #fdceaa;
+  }
+
+  /*header*/
+
+  header div {
+    display: flex;
+    background-color: #2c3a3f;
+    justify-content: center;
+    width: 100vw;
+    height: 100px;
+  }
+  .titulos {
+    color: #ec5168;
+  }
+  nav {
+    display: none;
+  }
+
+  /*main*/
+
+  .gridMain {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .telefonos {
+    display: none;
+  }
+  .galeria {
+    display: none;
+  }
+  .SobreNos {
+    font-size: 1.35rem;
+    margin: 0px;
+    padding: 15px;
+  }
+  .SobreProd {
+    font-size: 1.35rem;
+    margin: 0px;
+    padding: 15px;
+  }
+
+  /*footer*/
+
+  .footer {
+    background: #2c3a3f;
+    color: #ec5168;
+    width: 100vw;
+  }
+  footer div div h4 a {
+    color: #ec5168;
+    text-decoration: none;
+  }
+  .logo {
+    display: none;
+  }
+  .info {
+    margin: 20px;
+    font-size: 1.5;
+  }
+  .redesSociales {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3;
+    justify-items: end;
+    grid-row-gap: 15px;
+    margin: 0px 0px 0px 35px;
+  }
+  .derechos {
+    text-align: center;
+    width: 100vw;
+  }
+  .map {
+    display: none;
+  }
+  .formulario {
+    width: 100vw;
+  }
+}
